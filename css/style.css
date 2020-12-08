@@ -1,0 +1,65 @@
+body{
+    background-color:skyblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .navbar-brand{
+      font-size:26px;
+      margin-left:40px;
+  }
+.navbar-nav{
+    margin:auto;
+    position: relative;
+      /* float:right; */
+      /* left:20%; */
+      
+  }
+  .navbar-nav>li {
+      margin:0px 20px;
+      /* background-color:whitesmoke; */
+      color:black;
+      
+  }
+  .navbar-nav > li > a{
+      font-size:18px;
+      text-transform: uppercase;
+      color:black;
+      
+  }
+  .card{
+      background-color:rebeccapurple;
+      border-radius: 10px;;
+      color:white;
+  }
+  .container{
+      margin-top:20vh;
+  }
+  button{
+      color:white;
+  }
+  @media only screen and (min-width:769px) and (max-width:2500px)
+  {
+    .container{
+        margin-top:30vh;
+    }
+  }
+  #namevalue
+  {
+      color:2px solid black;
+  }
+  ::placeholder{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #imdwithcard
+  {
+      margin-left:2%;
+      /* margin-left:30%; */
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
